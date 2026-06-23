@@ -6,13 +6,13 @@
   <img src="assets/overview.png" width="100%">
 </p>
 
-This repository provides the implementation of **SARA-Seg**, a medical image segmentation framework that integrates semantic anchoring, reliability-aware adaptation, and structure-consistent refinement.
+This is the official PyTorch implementation of **SARA-Seg**, a medical image segmentation framework that integrates semantic anchoring, reliability-aware adaptation, and structure-consistent refinement.
 
 ---
 
 ## Environment
 
-Recommended environment:
+The following environment is recommended:
 
 ```shell
 Ubuntu: 20.04 or 22.04
@@ -250,7 +250,7 @@ SARA-Seg/
 
 ## Main Modules
 
-The implementation contains the three main components described in the paper:
+SARA-Seg consists of the following three main components:
 
 1. **Semantic Anchoring**
    - online and EMA teacher branches;
